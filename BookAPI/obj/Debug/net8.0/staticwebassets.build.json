@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "1/QKH6k8BTHgRiDxV1rLIJLlay8B2M60desECY2aUy0=",
+  "Source": "BookAPI",
+  "BasePath": "_content/BookAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookAPI\\wwwroot",
+      "Source": "BookAPI",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
