@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1/QKH6k8BTHgRiDxV1rLIJLlay8B2M60desECY2aUy0=",
+  "Hash": "tkolor3tTiA4NimmhA7UbjAFTtsIDdwXLz8DCVRdp4M=",
   "Source": "BookAPI",
   "BasePath": "_content/BookAPI",
   "Mode": "Default",
@@ -15,5 +15,44 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "uploads/306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "uploads/9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg"
+    }
+  ]
 }

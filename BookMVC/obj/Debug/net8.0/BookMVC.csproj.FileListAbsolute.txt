@@ -134,3 +134,5 @@ C:\Users\Elkhan Mammadli\source\repos\BookSolution\BookMVC\obj\Debug\net8.0\refi
 C:\Users\Elkhan Mammadli\source\repos\BookSolution\BookMVC\obj\Debug\net8.0\BookMVC.pdb
 C:\Users\Elkhan Mammadli\source\repos\BookSolution\BookMVC\obj\Debug\net8.0\BookMVC.genruntimeconfig.cache
 C:\Users\Elkhan Mammadli\source\repos\BookSolution\BookMVC\obj\Debug\net8.0\ref\BookMVC.dll
+C:\Users\Elkhan Mammadli\source\repos\BookSolution\BookMVC\obj\Debug\net8.0\BookMVC.sourcelink.json
+C:\Users\Elkhan Mammadli\source\repos\BookSolution\BookMVC\bin\Debug\net8.0\Newtonsoft.Json.dll

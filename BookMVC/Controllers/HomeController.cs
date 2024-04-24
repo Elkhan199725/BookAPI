@@ -1,32 +1,31 @@
-using BookMVC.Models;
+using BookMVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using Newtonsoft.Json;
 
-namespace BookMVC.Controllers
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly IHttpClientFactory _httpClientFactory;
+    private readonly string _apiBaseUrl = "https://localhost:7291/api";
+
+    public HomeController(IHttpClientFactory httpClientFactory)
     {
-        private readonly ILogger<HomeController> _logger;
+        _httpClientFactory = httpClientFactory;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
+    public async Task<IActionResult> Index()
+    {
+        List<BookReadDto> list = new List<BookReadDto>();
+        var client = _httpClientFactory.CreateClient();
+        client.BaseAddress = new Uri(_apiBaseUrl);
+
+        var responseMessage = await client.GetAsync("/Books/GetAllBooks");
+
+        if (responseMessage.IsSuccessStatusCode)
         {
-            _logger = logger;
+            var data = await responseMessage.Content.ReadAsStringAsync();
+            list = JsonConvert.DeserializeObject<List<BookReadDto>>(data);
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        return View(list);
     }
 }
