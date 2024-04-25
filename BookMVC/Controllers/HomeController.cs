@@ -124,4 +124,20 @@ public class HomeController : Controller
 
 
 
+
+    [HttpPost, ActionName("Delete")]
+    public async Task<IActionResult> ConfirmDelete(int id)
+    {
+        var client = GetClient();
+        var response = await client.DeleteAsync($"{_apiBaseUrl}/Books/DeleteBook/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            return RedirectToAction("Index");
+        }
+        ModelState.AddModelError(string.Empty, "API call failed. Please check the API and try again.");
+        return View(new DeleteBookViewModel { Id = id });
+    }
+
+
+
 }

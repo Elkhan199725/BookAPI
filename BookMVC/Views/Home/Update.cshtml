@@ -4,29 +4,56 @@
     ViewData["Title"] = "Update Book";
 }
 
-<h1>Update Book</h1>
+<div class="container mt-4">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
 
-<form asp-action="Update" asp-controller="Home" method="post" enctype="multipart/form-data">
-    <input asp-for="Id" type="hidden" />
-    <div class="form-group">
-        <label asp-for="Title"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form asp-action="Update" asp-controller="Home" method="post" enctype="multipart/form-data" class="shadow p-4 rounded">
+                <input asp-for="Id" type="hidden" />
+                <div class="form-group mb-3">
+                    <label asp-for="Title" class="form-label"></label>
+                    <input asp-for="Title" class="form-control" placeholder="Enter book title" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Author" class="form-label"></label>
+                    <input asp-for="Author" class="form-control" placeholder="Enter author's name" />
+                    <span asp-validation-for="Author" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Price" class="form-label"></label>
+                    <input asp-for="Price" class="form-control" placeholder="Enter price" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-4">
+                    <label asp-for="ImageFile" class="form-label">Update Book Cover Image</label>
+                    <input asp-for="ImageFile" type="file" class="form-control" onchange="previewImage(event)" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+                <div class="form-group text-center mb-3">
+                    <img id="imagePreview" style="max-width: 100%; height: auto; display: none;" class="img-thumbnail mt-2" />
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Author"></label>
-        <input asp-for="Author" class="form-control" />
-        <span asp-validation-for="Author" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Price"></label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="ImageFile">Change Image</label>
-        <input asp-for="ImageFile" type="file" class="form-control" />
-        <span asp-validation-for="ImageFile" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-success">Update</button>
-</form>
+</div>
+
+@section Scripts {
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById('imagePreview');
+                output.src = reader.result;
+                output.style.display = 'inline-block';
+            }
+            if (event.target.files.length > 0) {
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+    </script>
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IEPiwTwfbUDgf8Z5DYrOUGkPoFK+EiGH+SkdkYoW8TA=",
+  "Hash": "v/Mw+xSDuXAwZ5QP7O6Mx5HACOZRsO3Zq0V1KtN7/GQ=",
   "Source": "BookAPI",
   "BasePath": "_content/BookAPI",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "uploads/294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg"
     },
     {
       "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg",
