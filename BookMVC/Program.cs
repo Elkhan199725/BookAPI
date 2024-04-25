@@ -1,7 +1,12 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Register IHttpClientFactory
-builder.Services.AddHttpClient();
+builder.Services.AddHttpClient("BookAPI", client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7291/api"); // Adjust the port accordingly
+    // Optional: Configure default headers or other settings
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,46 +1,55 @@
-﻿@using BookMVC.ViewModels   
+﻿@using BookMVC.ViewModels
 @model List<BookReadDto>
+
 @{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to the Book Store</h1>
-    <p>Explore our collection of books.</p>
-</div>
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4">Welcome to the Book Store</h1>
+        <p>Explore our collection of books. Add new ones or update existing entries.</p>
+        <a href="@Url.Action("Create", "Home")" class="btn btn-primary">Add New Book</a>
+    </div>
 
-<table class="table">
-    <thead class="thead-dark">
-        <tr>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Price</th>
-            <th>Image</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
+    <table class="table table-bordered table-hover mt-4">
+        <thead class="thead-dark">
             <tr>
-                <td>@book.Id</td>
-                <td>@book.Title</td>
-                <td>@book.Author</td>
-                <td>@book.Price.ToString("C")</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(book.ImageUrl))
-                    {
-                        <img src="@book.ImageUrl" alt="Book Image" style="width: 100px; height: auto;"/>
-                    }
-                    else
-                    {
-                        <text>No Image Available</text>
-                    }
-                </td>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Actions</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Id</td>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Price.ToString("C")</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(book.ImageUrl))
+                        {
+                            <img src="@book.ImageUrl" alt="Book Image" style="width: 100px; height: auto;" />
+                        }
+                        else
+                        {
+                            <text>No Image Available</text>
+                        }
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Update", "Home", new { id = book.Id })" class="btn btn-warning">Edit</a>
+                        <a href="@Url.Action("Delete", "Home", new { id = book.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
 @section Scripts {
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

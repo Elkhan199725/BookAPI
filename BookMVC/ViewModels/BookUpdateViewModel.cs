@@ -1,4 +1,4 @@
-﻿namespace BookAPI.DTOs;
+﻿namespace BookMVC.ViewModels;
 
 public class UpdateBookDto
 {

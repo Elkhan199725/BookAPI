@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tkolor3tTiA4NimmhA7UbjAFTtsIDdwXLz8DCVRdp4M=",
+  "Hash": "IEPiwTwfbUDgf8Z5DYrOUGkPoFK+EiGH+SkdkYoW8TA=",
   "Source": "BookAPI",
   "BasePath": "_content/BookAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "uploads/084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg"
+    },
     {
       "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg",
       "SourceId": "BookAPI",
@@ -34,6 +53,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "uploads/415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\6845398973804b11991b14f54e71b237_shuggie bain.jpeg",
+      "SourceId": "BookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\",
+      "BasePath": "_content/BookAPI",
+      "RelativePath": "uploads/6845398973804b11991b14f54e71b237_shuggie bain.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6845398973804b11991b14f54e71b237_shuggie bain.jpeg"
     },
     {
       "Identity": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\wwwroot\\uploads\\9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg",
