@@ -1,0 +1,76 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9546"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/084742208e6e474da5141c543df6f9fc_shuggie bain.yw1tub7c3e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yw1tub7c3e"},{"Name":"integrity","Value":"sha256-DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto="},{"Name":"label","Value":"_content/BookAPI/uploads/084742208e6e474da5141c543df6f9fc_shuggie bain.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9546"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/294af243fbe449959a5b0af0a7fd5248_adsiztablo.fpoxkzdyin.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fpoxkzdyin"},{"Name":"integrity","Value":"sha256-U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA="},{"Name":"label","Value":"_content/BookAPI/uploads/294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8336"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\294af243fbe449959a5b0af0a7fd5248_adsiztablo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8336"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.fpoxkzdyin.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fpoxkzdyin"},{"Name":"integrity","Value":"sha256-U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA="},{"Name":"label","Value":"_content/BookAPI/uploads/306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8336"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\306ac7cb07d64bf4b1474931e1e87cb1_adsiztablo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8336"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9546"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/415eb346542b4b03b6e186cf48ed38e9_shuggie bain.yw1tub7c3e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yw1tub7c3e"},{"Name":"integrity","Value":"sha256-DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto="},{"Name":"label","Value":"_content/BookAPI/uploads/415eb346542b4b03b6e186cf48ed38e9_shuggie bain.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9546"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/6845398973804b11991b14f54e71b237_shuggie bain.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6845398973804b11991b14f54e71b237_shuggie bain.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9546"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/6845398973804b11991b14f54e71b237_shuggie bain.yw1tub7c3e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6845398973804b11991b14f54e71b237_shuggie bain.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yw1tub7c3e"},{"Name":"integrity","Value":"sha256-DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto="},{"Name":"label","Value":"_content/BookAPI/uploads/6845398973804b11991b14f54e71b237_shuggie bain.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9546"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DvfVTT\u002BdqFukcHajhMYXrz0RZXW6EUFkLEt2KsPtvto=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/9989c1c95d69499ca15ea62affd56455_adsiztablo.fpoxkzdyin.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fpoxkzdyin"},{"Name":"integrity","Value":"sha256-U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA="},{"Name":"label","Value":"_content/BookAPI/uploads/9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8336"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookAPI/uploads/9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9989c1c95d69499ca15ea62affd56455_adsiztablo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8336"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U0uTvF/fbPUMxlNd5G1zavoLv2rZXsjEj5jj\u002BzHtuyA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 12:28:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

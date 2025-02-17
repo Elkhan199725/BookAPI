@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xGKgRSNpZ3VKFG/dNLu7fvpOLIxPqMDAgX4ymBkuYn+1U0uXLjLnBqVzoXBSjhIuuehP6AtnPUonQc8MnuJVtA==",
+  "dgSpecHash": "WsRzmZ073kw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BookSolution\\BookAPI\\BookAPI.csproj",
+  "projectFilePath": "C:\\Users\\Elkhan Mammadli\\Desktop\\BookAPI\\BookAPI\\BookAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elkhan Mammadli\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Elkhan Mammadli\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
